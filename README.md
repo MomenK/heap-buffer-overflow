@@ -70,7 +70,7 @@ This target cleans the build, compiles `lib.c` with `-DCOND`, compiles `main.c` 
 
 2. **View the Build Log**
 
-The file `build.log` contains the output from a complete build and run session, including a detailed error report and a shadow memory dump. [See explanation details](explanation.md)
+The file `build.log` contains the output from a complete build and run session, including a detailed error report and a shadow memory dump.
 
 ## Explanation
 When running the executable, AddressSanitizer detects a heap-buffer-overflow error:
