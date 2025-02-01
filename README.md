@@ -65,7 +65,7 @@ To reproduce the heap-buffer-overflow error using AddressSanitizer:
 1. **Clean and Build the Faulty Configuration:**
 
    ```bash
-   make run
+    make run > build.log 2>&1
 This target cleans the build, compiles `lib.c` with `-DCOND`, compiles `main.c` without it, links them, and then runs the resulting executable. You should see an AddressSanitizer error report in the output.
 
 2. **View the Build Log**
